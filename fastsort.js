@@ -3,10 +3,10 @@
 		var DESC = 0,
 			ASC  = 1,
 			dir  = DESC;
-			
-		var table = $(this);
-		var	tbody = table.find("tbody")[0];
-		var	trs = table.find("tbody tr");
+
+		var table  = $(this);
+		var	tbody  = table.find("tbody")[0];
+		var	trs    = table.find("tbody tr");
 		var	trslen = trs.length;
 
 		var sorter = function(idx) {
